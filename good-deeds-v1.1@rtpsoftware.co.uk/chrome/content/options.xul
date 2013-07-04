@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+<prefwindow id="good-deeds-prefs"
+     title="Good-Deeds Preferences"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+<prefpane id="gd-settings-pane" label="Good-Deeds Preferences">
+  <preferences>
+    <preference id="pref_visitHungerSite" 		name="extensions.gooddeeds.visitHungerSite" 		type="bool"/>
+    <preference id="pref_visitBreastCancerSite" name="extensions.gooddeeds.visitBreastCancerSite" 	type="bool"/>
+    <preference id="pref_visitChildHealthSite" 	name="extensions.gooddeeds.visitChildHealthSite"	type="bool"/>
+    <preference id="pref_visitLiteracySite" 	name="extensions.gooddeeds.visitLiteracySite" 		type="bool"/>
+    <preference id="pref_visitRainforestSite" 	name="extensions.gooddeeds.visitRainforestSite" 	type="bool"/>
+    <preference id="pref_visitAnimalRescueSite" name="extensions.gooddeeds.visitAnimalRescueSite" 	type="bool"/>
+    <preference id="pref_startTime" name="extensions.gooddeeds.startTime" 	type="string"/>
+    <preference id="pref_dayDelay" name="extensions.gooddeeds.dayDelay" 	type="int"/>
+  </preferences>
+
+ <groupbox>
+  <caption label="Which sites do you want to visit?"/>
+  <description>If you want, Good-Deeds can open up all of these in separate tabs.</description>
+    <vbox align="left">
+      <checkbox preference="pref_visitHungerSite" id="visitHungerSite" label="TheHungerSite.com" />
+      <checkbox preference="pref_visitBreastCancerSite" id="visitBreastCancerSite" label="BreastCancerSite.com" />
+      <checkbox preference="pref_visitChildHealthSite" id="visitChildHealthSite" label="ChildHealthSite.com" />
+      <checkbox preference="pref_visitLiteracySite" id="visitLiteracySite" label="LiteracySite.com" />
+      <checkbox preference="pref_visitRainforestSite" id="visitRainforestSite" label="RainforestSite.com" />
+      <checkbox preference="pref_visitAnimalRescueSite" id="visitAnimalRescueSite" label="AnimalRescueSite.com" />
+    </vbox>
+  </groupbox>
+
+ <groupbox>
+  <caption label="What time does your day start?"/>
+  <description>If you dont want your Good Deed to interupt your first browser session of the day then set the earliest time that Good-Deeds should remind you.</description>
+    <vbox align="left">
+      <timepicker hideseconds="true" preference="pref_startTime" preference-editable="true" />
+    </vbox>
+  </groupbox>
+
+ <groupbox>
+  <caption label="How good are you?"/>
+  <description>We understand that a daily Good Deed might become tiring after a while but that doesnt mean you should give up! Use the slider below to set the number of days between reminders.</description>
+    <vbox align="left">
+      <scale min="1" max="30" preference="pref_dayDelay" />
+    </vbox>
+  </groupbox>
+</prefpane>
+
+</prefwindow>

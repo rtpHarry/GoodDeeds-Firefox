@@ -1,0 +1,11 @@
+Bugs
+----
+Options Screen - Clumsy wording for "Which sites do you want to visit?" description
+
+
+Features
+--------
+Add time of day preference
+Add delay preference
+Add only show me the popup every X days
+Update to work with latest Firefox

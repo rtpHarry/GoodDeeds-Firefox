@@ -1,0 +1,6 @@
+content good-deeds chrome/content/
+skin good-deeds default chrome/skin/
+
+# Firefox
+# javascript include and dev-only toolbar
+overlay	chrome://browser/content/browser.xul chrome://good-deeds/content/good-deeds.xul

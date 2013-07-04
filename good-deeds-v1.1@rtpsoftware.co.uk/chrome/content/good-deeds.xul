@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE overlay>
+<overlay id="good-deeds-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://good-deeds/content/good-deeds.js" />
+
+<!-- DEBUG ONLY - Status bar overlay -->
+<!--
+<statusbar id="status-bar">
+	<statusbarpanel id="good-deeds-statusbarpanel"
+		label="Visit RainForestSite"
+		tooltiptext="Information not yet loaded"
+		onclick="GoodDeeds.click_event()"
+	/>
+</statusbar>
+-->
+
+</overlay>
