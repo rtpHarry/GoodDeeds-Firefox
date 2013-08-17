@@ -93,7 +93,7 @@ var GoodDeeds = {
 	decide_what_to_display: function()
 	{
 		// check if tabs opened today
-		if(true /*this.compare_date()*/)
+		if(this.compare_date())
 		{
 			// open tabs
 			this.open_tabs();
@@ -101,7 +101,6 @@ var GoodDeeds = {
 			// update last run
 			var Today = new Date;
 			this.prefs.setCharPref("lastVisited", Today.toString());
-
 		}
 	},
 	
