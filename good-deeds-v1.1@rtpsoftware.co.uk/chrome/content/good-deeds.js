@@ -15,7 +15,6 @@ var GoodDeeds = {
 	visitAnimalRescueSite : false,
 	visitRainforestSite: false,
 	visitBreastCancerSite : false,
-	visitChildHealthSite : false,
 	visitLiteracySite : false,	
 	visitHungerSite : false,	
 	
@@ -61,10 +60,6 @@ var GoodDeeds = {
 		 this.visitBreastCancerSite = this.prefs.getBoolPref("visitBreastCancerSite");
 		}
 		
-		if (this.prefs.getPrefType("visitChildHealthSite") == this.prefs.PREF_BOOL)	 {	 
-		 this.visitChildHealthSite = this.prefs.getBoolPref("visitChildHealthSite");
-		}
-		
 		if (this.prefs.getPrefType("visitLiteracySite") == this.prefs.PREF_BOOL)	 {	 
 		 this.visitLiteracySite = this.prefs.getBoolPref("visitLiteracySite");
 		}
@@ -73,8 +68,8 @@ var GoodDeeds = {
 		 this.visitHungerSite = this.prefs.getBoolPref("visitHungerSite");
 		}
 		
-		if (this.prefs.getPrefType("lastVisited") == this.prefs.PREF_STRING)	 {
-		this.lastVisited = this.prefs.getCharPref("lastVisited").toLowerCase();
+		if (this.prefs.getPrefType("lastVisited") == this.prefs.PREF_STRING) {
+		 this.lastVisited = this.prefs.getCharPref("lastVisited").toLowerCase();
 		}	
 	},
 	
@@ -82,22 +77,16 @@ var GoodDeeds = {
 	decide_what_to_display: function()
 	{
 		// check if tabs opened today
-		if(this.compare_date())
+		if(true /*this.compare_date()*/)
 		{
 			// open tabs
 			this.open_tabs();
-			
+					
 			// update last run
 			var Today = new Date;
 			this.prefs.setCharPref("lastVisited", Today.toString());
 
 		}
-	},
-	
-	click_event: function()
-	{
-		
-
 	},
 	
 	compare_date: function()
@@ -134,37 +123,36 @@ var GoodDeeds = {
 	
 	open_tabs: function()
 	{
+		function open_background_tab(siteUrl) {
+			openLinkIn(siteUrl, 'tab', { inBackground: true });
+		}
+		
 		// open sites in tabs
 		if (this.visitAnimalRescueSite)
 		{
-			openUILinkIn('http://www.animalrescuesite.com', 'tab');
+			open_background_tab('http://www.animalrescuesite.com');
 		}
 		
 		if (this.visitRainforestSite)
 		{
-			openUILinkIn('http://www.rainforestsite.com', 'tab');
+			open_background_tab('http://www.rainforestsite.com');
 		}
 		
 		if (this.visitBreastCancerSite)
 		{
-			openUILinkIn('http://www.breastcancersite.com', 'tab');
-		}
-		
-		if (this.visitChildHealthSite)
-		{
-			openUILinkIn('http://www.childhealthsite.com', 'tab');		
+			open_background_tab('http://www.breastcancersite.com');
 		}
 		
 		if (this.visitLiteracySite)
 		{
-			openUILinkIn('http://www.literacysite.com', 'tab');
+			open_background_tab('http://www.literacysite.com');
 		}
 		
 		if (this.visitHungerSite)
 		{
-			openUILinkIn('http://www.thehungersite.com', 'tab');
+			open_background_tab('http://www.thehungersite.com');
 		}
-	}
+	} 
 }
 
 // Install event handlers
