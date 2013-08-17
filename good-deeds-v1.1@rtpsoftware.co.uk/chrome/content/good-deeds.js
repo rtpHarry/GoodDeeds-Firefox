@@ -12,12 +12,16 @@ var GoodDeeds = {
 	lastVisited: "",
 	startTime: "",
 	dayDelay: "",
-	visitAnimalRescueSite : false,
-	visitRainforestSite: false,
-	visitBreastCancerSite : false,
-	visitLiteracySite : false,	
-	visitHungerSite : false,	
 	
+	visitHungerSite : false,	
+	visitBreastCancerSite : false,
+	visitAnimalRescueSite : false,
+	visitLiteracySite : false,	
+	visitVeteransSite : false,	
+	visitAutismSite : false,	
+	visitDiabetesSite : false,	
+	visitRainforestSite : false,
+		
 	startup: function()
 	{
      // Register to receive notifications of preference changes 
@@ -48,24 +52,36 @@ var GoodDeeds = {
 	grab_preferences: function()
 	{
 		// get several preferences now
-		if (this.prefs.getPrefType("visitRainforestSite") == this.prefs.PREF_BOOL)	 {	 
-		 this.visitRainforestSite = this.prefs.getBoolPref("visitRainforestSite");
-		}
-		
-		if (this.prefs.getPrefType("visitAnimalRescueSite") == this.prefs.PREF_BOOL)	 {	 
-		 this.visitAnimalRescueSite = this.prefs.getBoolPref("visitAnimalRescueSite");
-		}
-		
+		if (this.prefs.getPrefType("visitHungerSite") == this.prefs.PREF_BOOL)	 {	 
+		 this.visitHungerSite = this.prefs.getBoolPref("visitHungerSite");
+		}	
+				
 		if (this.prefs.getPrefType("visitBreastCancerSite") == this.prefs.PREF_BOOL)	 {	 
 		 this.visitBreastCancerSite = this.prefs.getBoolPref("visitBreastCancerSite");
 		}
 		
+		if (this.prefs.getPrefType("visitAnimalRescueSite") == this.prefs.PREF_BOOL)	 {	 
+		 this.visitAnimalRescueSite = this.prefs.getBoolPref("visitAnimalRescueSite");
+		}	
+
 		if (this.prefs.getPrefType("visitLiteracySite") == this.prefs.PREF_BOOL)	 {	 
 		 this.visitLiteracySite = this.prefs.getBoolPref("visitLiteracySite");
 		}
 		
-		if (this.prefs.getPrefType("visitHungerSite") == this.prefs.PREF_BOOL)	 {	 
-		 this.visitHungerSite = this.prefs.getBoolPref("visitHungerSite");
+		if (this.prefs.getPrefType("visitVeteransSite") == this.prefs.PREF_BOOL)	 {	 
+		 this.visitVeteransSite = this.prefs.getBoolPref("visitVeteransSite");
+		}
+		
+		if (this.prefs.getPrefType("visitAutismSite") == this.prefs.PREF_BOOL)	 {	 
+		 this.visitAutismSite = this.prefs.getBoolPref("visitAutismSite");
+		}
+		
+		if (this.prefs.getPrefType("visitDiabetesSite") == this.prefs.PREF_BOOL)	 {	 
+		 this.visitDiabetesSite = this.prefs.getBoolPref("visitDiabetesSite");
+		}
+		
+		if (this.prefs.getPrefType("visitRainforestSite") == this.prefs.PREF_BOOL)	 {	 
+		 this.visitRainforestSite = this.prefs.getBoolPref("visitRainforestSite");
 		}
 		
 		if (this.prefs.getPrefType("lastVisited") == this.prefs.PREF_STRING) {
@@ -126,31 +142,46 @@ var GoodDeeds = {
 		function open_background_tab(siteUrl) {
 			openLinkIn(siteUrl, 'tab', { inBackground: true });
 		}
-		
+				
 		// open sites in tabs
-		if (this.visitAnimalRescueSite)
+		if (this.visitHungerSite)
 		{
-			open_background_tab('http://www.animalrescuesite.com');
-		}
-		
-		if (this.visitRainforestSite)
-		{
-			open_background_tab('http://www.rainforestsite.com');
-		}
+			open_background_tab('http://www.thehungersite.com');
+		}	
 		
 		if (this.visitBreastCancerSite)
 		{
 			open_background_tab('http://www.breastcancersite.com');
 		}
 		
+		if (this.visitAnimalRescueSite)
+		{
+			open_background_tab('http://www.animalrescuesite.com');
+		}
+		
 		if (this.visitLiteracySite)
 		{
 			open_background_tab('http://www.literacysite.com');
 		}
-		
-		if (this.visitHungerSite)
+
+		if (this.visitVeteransSite)
 		{
-			open_background_tab('http://www.thehungersite.com');
+			open_background_tab('http://www.theveteranssite.com');
+		}
+
+		if (this.visitAutismSite)
+		{
+			open_background_tab('http://www.theautismsite.com');
+		}
+
+		if (this.visitDiabetesSite)
+		{
+			open_background_tab('http://www.thediabetessite.com');
+		}
+		
+		if (this.visitRainforestSite)
+		{
+			open_background_tab('http://www.therainforestsite.com');
 		}
 	} 
 }

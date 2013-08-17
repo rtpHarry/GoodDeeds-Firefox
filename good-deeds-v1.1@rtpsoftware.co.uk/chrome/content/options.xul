@@ -9,22 +9,26 @@
   <preferences>
     <preference id="pref_visitHungerSite" 		name="extensions.gooddeeds.visitHungerSite" 		type="bool"/>
     <preference id="pref_visitBreastCancerSite" name="extensions.gooddeeds.visitBreastCancerSite" 	type="bool"/>
-    <preference id="pref_visitChildHealthSite" 	name="extensions.gooddeeds.visitChildHealthSite"	type="bool"/>
+	<preference id="pref_visitAnimalRescueSite" name="extensions.gooddeeds.visitAnimalRescueSite" 	type="bool"/>						
     <preference id="pref_visitLiteracySite" 	name="extensions.gooddeeds.visitLiteracySite" 		type="bool"/>
+    <preference id="pref_visitVeteransSite" 	name="extensions.gooddeeds.visitVeteransSite" 		type="bool"/>
+	<preference id="pref_visitAutismSite" 		name="extensions.gooddeeds.visitAutismSite" 		type="bool"/>
+    <preference id="pref_visitDiabetesSite" 	name="extensions.gooddeeds.visitDiabetesSite" 		type="bool"/>
     <preference id="pref_visitRainforestSite" 	name="extensions.gooddeeds.visitRainforestSite" 	type="bool"/>
-    <preference id="pref_visitAnimalRescueSite" name="extensions.gooddeeds.visitAnimalRescueSite" 	type="bool"/>					
   </preferences>
-
+  
  <label value="Good Deeds" class="monospace" />
  <groupbox>
   <caption label="Select sites to visit daily"/>
     <vbox align="left">
       <checkbox preference="pref_visitHungerSite" id="visitHungerSite" label="TheHungerSite.com" />
-      <checkbox preference="pref_visitBreastCancerSite" id="visitBreastCancerSite" label="BreastCancerSite.com" />
-      <checkbox preference="pref_visitChildHealthSite" id="visitChildHealthSite" label="ChildHealthSite.com" />
-      <checkbox preference="pref_visitLiteracySite" id="visitLiteracySite" label="LiteracySite.com" />
-      <checkbox preference="pref_visitRainforestSite" id="visitRainforestSite" label="RainforestSite.com" />
-      <checkbox preference="pref_visitAnimalRescueSite" id="visitAnimalRescueSite" label="AnimalRescueSite.com" />
+      <checkbox preference="pref_visitBreastCancerSite" id="visitBreastCancerSite" label="TheBreastCancerSite.com" />
+      <checkbox preference="pref_visitAnimalRescueSite" id="visitAnimalRescueSite" label="TheAnimalRescueSite.com" />
+      <checkbox preference="pref_visitLiteracySite" id="visitLiteracySite" label="TheLiteracySite.com" />
+	  <checkbox preference="pref_visitVeteransSite" id="visitVeteransSite" label="TheVeteransSite.com" />
+	  <checkbox preference="pref_visitAutismSite" id="visitAutismSite" label="TheAutismSite.com" />	  
+	  <checkbox preference="pref_visitDiabetesSite" id="visitDiabetesSite" label="TheDiabetesSite.com" />
+      <checkbox preference="pref_visitRainforestSite" id="visitRainforestSite" label="TheRainforestSite.com" />
     </vbox>
   </groupbox>
 </prefpane>

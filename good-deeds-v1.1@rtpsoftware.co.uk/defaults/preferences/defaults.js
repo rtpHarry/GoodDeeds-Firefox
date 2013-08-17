@@ -10,7 +10,9 @@ pref("extensions.gooddeeds.lastVisited", "01/01/1970");
 // sites to visit
 pref("extensions.gooddeeds.visitHungerSite", false);
 pref("extensions.gooddeeds.visitBreastCancerSite", false);
-pref("extensions.gooddeeds.visitChildHealthSite", false);
-pref("extensions.gooddeeds.visitLiteracySite", false);
-pref("extensions.gooddeeds.visitRainforestSite", true);
 pref("extensions.gooddeeds.visitAnimalRescueSite", false);
+pref("extensions.gooddeeds.visitLiteracySite", false);
+pref("extensions.gooddeeds.visitVeteransSite", false);
+pref("extensions.gooddeeds.visitAutismSite", false);
+pref("extensions.gooddeeds.visitDiabetesSite", false);
+pref("extensions.gooddeeds.visitRainforestSite", true);

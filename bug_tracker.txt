@@ -2,15 +2,15 @@ Bugs
 ----
 Explain plugin better in readme
 Out of date with current sites available
-Child health site shut down - remove
+Write readme for github
 LAUNCH - enabled date check again in good-deeds.js
+
 //Doesn't work - tab gets taken over - add delay in
 //Remove obsolete flock support
 //Upgrade firefox browser to latest
 //config panel half updated with new ui but messy and not wired in
+//Child health site shut down - remove
 
-Options Screen - Add note - Unofficial plugin
-Options Screen - Clumsy wording for "Which sites do you want to visit?" description
 
 
 Features
@@ -18,7 +18,9 @@ Features
 Add time of day preference
 Add delay preference
 Add only show me the popup every X days
-Update to work with latest Firefox
+Options Screen - Add note - Unofficial plugin
+Options Screen - Clumsy wording for "Which sites do you want to visit?" description
+
 
 
 
