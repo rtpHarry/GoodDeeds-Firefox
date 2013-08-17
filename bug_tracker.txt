@@ -1,10 +1,10 @@
 Bugs
 ----
-Explain plugin better in readme
-Out of date with current sites available
-Write readme for github
+Update website to mirror readme copy
 LAUNCH - enabled date check again in good-deeds.js
-
+//Bug - domains wrong - missing "the" prefix
+//Out of date with current sites available
+//Write readme for github
 //Doesn't work - tab gets taken over - add delay in
 //Remove obsolete flock support
 //Upgrade firefox browser to latest
@@ -15,32 +15,9 @@ LAUNCH - enabled date check again in good-deeds.js
 
 Features
 --------
+Integrate Google Analytics into addon
 Add time of day preference
 Add delay preference
 Add only show me the popup every X days
 Options Screen - Add note - Unofficial plugin
 Options Screen - Clumsy wording for "Which sites do you want to visit?" description
-
-
-
-
-http://thehungersite.greatergood.com/?origin=GoodDeedsFF
-The Hunger Site
-http://thebreastcancersite.greatergood.com/?origin=GoodDeedsFF
-The Breast Cancer Site
-http://theanimalrescuesite.greatergood.com/?origin=GoodDeedsFF
-The Animal Rescue Site
-http://theliteracysite.greatergood.com/?origin=GoodDeedsFF
-The Literacy Site
-
-
-http://theveteranssite.greatergood.com/?origin=GoodDeedsFF
-The Veterans Site
-http://theautismsite.greatergood.com/?origin=GoodDeedsFF
-The Autism Site
-http://diabetes.greatergood.com/?origin=GoodDeedsFF
-The Diabetes Site
-http://therainforestsite.greatergood.com/?origin=GoodDeedsFF
-The Rainforest Site
-http://greatergood.com/?origin=GoodDeedsFF
-GreaterGood

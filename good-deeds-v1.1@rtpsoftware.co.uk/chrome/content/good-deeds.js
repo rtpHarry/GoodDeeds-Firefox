@@ -151,17 +151,17 @@ var GoodDeeds = {
 		
 		if (this.visitBreastCancerSite)
 		{
-			open_background_tab('http://www.breastcancersite.com');
+			open_background_tab('http://www.thebreastcancersite.com');
 		}
 		
 		if (this.visitAnimalRescueSite)
 		{
-			open_background_tab('http://www.animalrescuesite.com');
+			open_background_tab('http://www.theanimalrescuesite.com');
 		}
 		
 		if (this.visitLiteracySite)
 		{
-			open_background_tab('http://www.literacysite.com');
+			open_background_tab('http://www.theliteracysite.com');
 		}
 
 		if (this.visitVeteransSite)
