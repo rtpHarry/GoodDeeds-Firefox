@@ -20,25 +20,37 @@ What is The Rainforest Site?
 
 In their own words:
 
-The Rainforest Site is dedicated to the preservation of rainforests around the world. Your daily click funds the purchase of rainforest land by The Nature Conservancy, The Rainforest Conservation Fund, The World Parks Endowment, and The Friends of Calakmul. These organizations work to preserve rainforest land in Ecuador, Mexico, Peru, Paraguay and other locations worldwide.
+> The Rainforest Site is dedicated to the preservation of rainforests around the world. Your daily click funds the purchase of rainforest land by The Nature Conservancy, The Rainforest Conservation Fund, The World Parks Endowment, and The Friends of Calakmul. These organizations work to preserve rainforest land in Ecuador, Mexico, Peru, Paraguay and other locations worldwide.
 
-On average, over 35,500 individuals from around the world visit the site each day to click the green "Preserve Endangered Land" button. To date, more than 150 million visitors have preserved more than 40,500 acres of land.
+> On average, over 60,000 individuals from around the world visit the site each day to click the green "Preserve Endangered Land" button. To date, more than 150 million visitors have preserved more than 40,500 acres of land.
 
-They also run the following sites (which are supported by this extension): Hungers Site, Breast Cancer Site, Literacy Site, Animal Rescue Site.
+They also run the following sites (which are supported by this extension): The Hunger Site, The Breast Cancer Site, The Literacy Site, The Animal Rescue Site, The Veterans Site, The Autism Site and The Diabetes Site
 
-If you still have questions then why not visit one of their sites and see for yourself how simple it is.
+If you still have questions then why not [visit one of their sites](http://www.therainforestsite.com/) and see for yourself how simple it is.
 
 Download
 --------
 
-You can get this extension directly from this site. Because Firefox is a secure browser and worries about what you're installing it will question whether you really want to do this. Just allow the site when the yellow bar appears along the top of this window, and then click install when the timer runs down.
+The best place to get this is from official Firefox add-ons site (AMO):
 
-If you are not an experienced Firefox user then you might feel better getting this file directly from the official Firefox addons site (TODO: Sorry, this plugin hasn't been approved yet, the link will be added soon!).
+  - https://addons.mozilla.org/en-US/firefox/addon/good-deeds/
+
+
+You can also get this extension directly from my website:
+
+  - http://www.rtpsoftware.co.uk/good-deeds/
+
+Because Firefox is a secure browser and worries about what you're installing it will question whether you really want to install custom add-ons from a location other than the AMO. Just allow the site when the yellow bar appears along the top of this window, and then click install when the timer runs down.
+
+If you are interested in how this add-on was developed you can also get the source code for this plugin from GitHub:
+
+  - https://github.com/rtpHarry/GoodDeeds-Firefox/
+
 
 Compatibility
 -------------
 
-This extension is compatible with Mozilla Firefox v1.5 to v22.0.
+This extension is compatible with Mozilla Firefox v1.5-v22.0
 
 Disclaimer
 ----------
@@ -47,4 +59,4 @@ This firefox extension is just a timer which reminds you to visit the website on
 
 I am in no way affiliated with the people that make the sites, CharityUSA.com, LLC. I don't get anything out of this other than a warm feeling knowing I am helping further their causes.
 
-Also it should be noted that this software has been tested to the best of my ability, but this software is provided "as is" without express or implied warranty.
+Also it should be noted that this software has been tested to the best of my ability, but this software is **provided "as is"** without express or implied **warranty**.
