@@ -1,7 +1,10 @@
 Bugs
 ----
 Update website to mirror readme copy
-LAUNCH - enabled date check again in good-deeds.js
+Make new xpi
+Upload to AMO
+
+//LAUNCH - enabled date check again in good-deeds.js
 //Bug - domains wrong - missing "the" prefix
 //Out of date with current sites available
 //Write readme for github
