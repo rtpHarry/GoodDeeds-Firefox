@@ -50,7 +50,7 @@ If you are interested in how this add-on was developed you can also get the sour
 Compatibility
 -------------
 
-This extension is compatible with Mozilla Firefox v1.5-v22.0
+This extension is compatible with Mozilla Firefox v3.0-v22.0
 
 Disclaimer
 ----------
