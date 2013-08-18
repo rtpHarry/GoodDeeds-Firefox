@@ -8,12 +8,12 @@ Good-Deeds is a simple extension for the Firefox web browser that helps you do a
 
 This wont cost you a penny because the money that is donated is provided by other like-minded green/eco-friendly companies that agree to pay a small fee for the chance to advertise their products on the page you click through to.
 
-Download it now!
+[Download it now!](https://addons.mozilla.org/en-US/firefox/addon/good-deeds/)
 
 Peace of Mind
 -------------
 
-The Rainforest Site network sites does not install any software, force you to sign up for anything, ask you for money, or hassle you in any way. The only time you will every hear from The Rainforest Site is if you visit them.
+The Rainforest Site network sites **does not** install any software, force you to sign up for anything, ask you for money, or hassle you in any way. The **only** time you will every hear from The Rainforest Site is if **you** visit **them**.
 
 What is The Rainforest Site?
 ----------------------------
@@ -36,13 +36,13 @@ The best place to get this is from official Firefox add-ons site (AMO):
   - https://addons.mozilla.org/en-US/firefox/addon/good-deeds/
 
 
-You can also get this extension directly from my website:
+You can also get this add-on directly from my website:
 
   - http://www.rtpsoftware.co.uk/good-deeds/
 
 Because Firefox is a secure browser and worries about what you're installing it will question whether you really want to install custom add-ons from a location other than the AMO. Just allow the site when the yellow bar appears along the top of this window, and then click install when the timer runs down.
 
-If you are interested in how this add-on was developed you can also get the source code for this plugin from GitHub:
+If you're interested in how this add-on was developed you can also get the source code for this add-on from GitHub:
 
   - https://github.com/rtpHarry/GoodDeeds-Firefox/
 
