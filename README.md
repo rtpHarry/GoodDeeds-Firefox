@@ -35,13 +35,6 @@ The best place to get this is from official Firefox add-ons site (AMO):
 
   - https://addons.mozilla.org/en-US/firefox/addon/good-deeds/
 
-
-You can also get this add-on directly from my website:
-
-  - http://www.rtpsoftware.co.uk/good-deeds/
-
-Because Firefox is a secure browser and worries about what you're installing it will question whether you really want to install custom add-ons from a location other than the AMO. Just allow the site when the yellow bar appears along the top of this window, and then click install when the timer runs down.
-
 If you're interested in how this add-on was developed you can also get the source code for this add-on from GitHub:
 
   - https://github.com/rtpHarry/GoodDeeds-Firefox/
@@ -50,7 +43,7 @@ If you're interested in how this add-on was developed you can also get the sourc
 Compatibility
 -------------
 
-This extension is compatible with Mozilla Firefox v3.0-v22.0
+This extension is compatible with Mozilla Firefox v3.0-v32.0+
 
 Disclaimer
 ----------
